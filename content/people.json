@@ -1,0 +1,25 @@
+[{
+    "first_name": "Christopher",
+    "last_name": "Hemming",
+    "about": "Hailing from a PhD in chemical physics, Chris looks at problems with a first principles perspective. With over hundreds of deployed streaming systems under his belt, Chris adds both his analytical talents and experiences with production systems to every project.",
+    "image": "",
+    "title": "Development Operations",
+    "links": [{"icon":"ICON", "url":"http://google.com"}, {"icon":"ICON", "url":"http://google.com"}]
+},
+{
+    "first_name": "Justin",
+    "last_name": "Girard",
+    "about": "Justin has been running software teams and projects for over a decade. He has managed the developemt of systems that support millions of users and many millions of messages per minute. He brings experience dealing with extremely scalable applications that need to store, search, and act at scale.",
+    "title": "Project Manager",
+    "image": "",
+    "links": [{"icon":"ICON", "url":"http://google.com"}, {"icon":"ICON", "url":"http://google.com"}]
+},
+{
+    "first_name": "Tyn",
+    "last_name": "Soltys",
+    "about": "Tyn has spent over a decade crafting user experience for brands and agencies. When building a user focused system, Tyn understands what questions to ask, so development teams avoid spending large sums of time building the wrong user experience.",
+    "title": "UX Designer",
+    "image": "",
+    "links": [{"icon":"ICON", "url":"http://google.com"}, {"icon":"ICON", "url":"http://google.com"}]
+}
+]

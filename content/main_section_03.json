@@ -1,0 +1,6 @@
+{
+    "left_instance": "<div class='p-5 border_me bg-black'><h3 class='text-2xl font-extrabold text-white tracking-tight sm:text-3xl'>LOOT. CRAFT. BATTLE. TRADE.</h3><ul class='mt-3 text-lg text-gray-500 list-disc' ><li>Explore the world with other players.</li><li> Discover rare items and unlock powers.</li> <li>Mine resources to build your base.</li> <li>Sell your gear to other players via many player run markets.</li></ul></div>",
+    "right_instance": "",
+    "section_classes":"bg-black dock_right",
+    "background_image":"content/level_3_01.png"    
+}

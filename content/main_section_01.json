@@ -1,0 +1,8 @@
+{
+    "background_image":"content/01.png",
+    "section_classes":"section_first",
+    "right_instance": "<h3 class='class_synthetic text-white tracking-normal font-thin text-right'>SYNTHETIC</h3><h3 class='class_turk text-white font-normal tracking-normal text-right'>TURK</h3><div class='net_labels text-right text-white pt-5 pb-5'><label class='net_label px-7'>MAINNET:<label class='net_label_inner pl-2 font-bold'>ONLINE</label></label><label class='net_label'>TESTNET:<label class='net_label_inner font-bold pl-2'>ONLINE</label></label></div>",
+    "left_instance": ""
+
+}
+

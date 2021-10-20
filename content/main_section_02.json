@@ -1,0 +1,7 @@
+{
+    "right_instance": "<div class='p-5 border_me bg-black'><h3 class='text-2xl font-extrabold text-white tracking-tight sm:text-3xl'>ABOUT THE GAME</h3><p class='mt-3 text-lg text-gray-500'>Turk is a sci-fi universe where players create, battle with, and sell weapons, bases, and vehicles. Play on PC, or your phone, and travel a player built galaxy while participating in player run events.</br></br>Collect and sell your items on the marketplace, and spend your equity and gear  in real life.</p></div>",
+    "left_instance": "",
+    "section_classes":"bg-black dock_left",
+    "background_image":"content/level_2_01.png"    
+    
+}
