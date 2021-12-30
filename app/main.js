@@ -15,7 +15,7 @@ function ($,require,content,section,section_split,mem_list,appstate,page_landing
 
             // Bind events
             instance.l_about = link.create({'label':"ABOUT", 'on_click':function(){alert(2)}})
-            instance.l_contact = link.create({'label':"CONTACT", 'on_click':function(){alert(1)}})
+            instance.l_contact = link.create({'label':"JOIN THE WAITLIST", 'on_click':function(){alert(1)}})
             instance.l_press = link.create({'label':"PRESS", 'on_click':function(){alert(1)}})
             instance.l_investors = link.create({'label':"INVESTORS", 'on_click':function(){alert(1)}})
             var right_links = [ instance.l_about,];
@@ -23,7 +23,7 @@ function ($,require,content,section,section_split,mem_list,appstate,page_landing
             var header_instance = header.create({  'left_items':'<div id="the_logo" > <img  src="./content/justin_logo.png" /></div><label  class="the_name font-medium text-white w-20 mt-4 ">SKY OCTOPUS GAMES</label>',
                                                 'right_items':right_links,});
                         
-            var button_wait = button.create({'label':'CONTACT','on_click':function(){window.location = 'https://www.linkedin.com/in/justin-girard/';}});
+            var button_wait = button.create({'label':'JOIN THE WAITLIST','on_click':function(){window.location = 'https://www.linkedin.com/in/justin-girard/';}});
             var button_log = button.create({'label':'LOGIN','on_click':function(){alert('hello')}});
             instance.button_wait = button_wait;
             // Bind events
@@ -31,9 +31,10 @@ function ($,require,content,section,section_split,mem_list,appstate,page_landing
             $.ajaxSetup({async:false});            
             $.get('content/main_section_01.json', function(s) 
             {
-                //var contact = contact_simple.create({'appstate':appstate, 'on_login':function (){}});
+                instance.f_contact = contact_simple.create({'appstate':appstate, 'on_login':function (){}});
                 //s['right_instance'] = section.create({'header_instance':s['right_instance'],'content_instance':contact});
-                s['right_instance'] = s['right_instance'] + "<div class='text-right '>"+button_wait.render()+"</div>";
+                //s['right_instance'] = s['right_instance'] + "<div class='text-right '>"+button_wait.render()+"</div>";
+                s['right_instance'] = s['right_instance'] + "<div class='text-right '>"+instance.f_contact.render()+"</div>";
                 sections_list.push(section_split.create(s));
             
             });            
@@ -82,6 +83,7 @@ function ($,require,content,section,section_split,mem_list,appstate,page_landing
             //instance.sections_list.forEach(function(item){ item.bind(); });
             instance.p_landing.bind();
             instance.button_wait.bind();
+            instance.f_contact.bind();
             //instance.home.bind();
             //instance.contrib.bind();
             
